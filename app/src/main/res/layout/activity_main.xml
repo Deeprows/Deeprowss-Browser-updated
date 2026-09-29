@@ -75,28 +75,28 @@
                             android:gravity="end"
                             android:orientation="vertical">
 
-                            <TextClock
-                                android:id="@+id/clockTime"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:format12Hr="h:mm:ss a"
-                                android:format24Hr="HH:mm:ss"
-                                android:includeFontPadding="false"
-                                android:textColor="#FFFFFF"
-                                android:textSize="15sp"
-                                android:textStyle="bold" />
+                           <TextClock
+    android:id="@+id/clockTime"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:format12Hour="h:mm:ss a"
+    android:format24Hour="HH:mm:ss"
+    android:includeFontPadding="false"
+    android:textColor="#FFFFFF"
+    android:textSize="15sp"
+    android:textStyle="bold" />
 
-                            <TextClock
-                                android:id="@+id/clockDate"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="2dp"
-                                android:format12Hr="EEE, d MMM"
-                                android:format24Hr="EEE, d MMM"
-                                android:includeFontPadding="false"
-                                android:textColor="#6B7280"
-                                android:textSize="10sp" />
-
+<TextClock
+    android:id="@+id/clockDate"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="2dp"
+    android:format12Hour="EEE, d MMM"
+    android:format24Hour="EEE, d MMM"
+    android:includeFontPadding="false"
+    android:textColor="#6B7280"
+    android:textSize="10sp" />
+                            
                         </LinearLayout>
 
                     </LinearLayout>
